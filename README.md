@@ -56,7 +56,7 @@ This is the core idea of the PINN. It ensures the network's output "obeys the la
     * We plug these predicted $x_i$ and $\ddot{x}_i$ values into the residual equation $f_i(t_j)$.
     * The loss $L_{physics}$ is the **Mean Squared Error** of these residuals. By minimizing this loss, we force the residuals toward zero, thus forcing the network's predictions to satisfy the differential equation.
 
-    $$L_{\text{physics}} = \frac{1}{N_{\text{physics}}} \sum_{j} \sum_{i=1}^{N} \left( f_i(t_j) \right)^2$$
+$$L_{\text{physics}} = \frac{1}{N_{\text{physics}}} \sum_{j} \sum_{i=1}^{N} \left( f_i(t_j) \right)^2$$
 
 This logic is implemented in `src/physics_loss.py:physics_informed_loss`.
 
@@ -74,7 +74,7 @@ To calculate this loss, we feed a batch of $t=0$ points into the network:
 * We use `autograd` (this time for the *first* derivative) to get the velocity prediction $\dot{\mathbf{x}}(0)$ and compute its MSE against the target velocities (all zeros).
 
 $$
-L_{\text{ic}} = \underbrace{\text{MSE}(\mathbf{x}(0), \mathbf{x}_{\text{target}})}_{\text{Position Loss}} + \underbrace{\text{MSE}(\dot{\mathbf{x}}(0), \dot{\mathbf{x}}_{\text{target}})}_{\text{Velocity Loss}}
+L_{\text{ic}} = \underbrace{\text{MSE}(\mathbf{x}(0), \mathbf{x}\_{\text{target}})}\_{\text{Position Loss}} + \underbrace{\text{MSE}(\dot{\mathbf{x}}(0), \dot{\mathbf{x}}\_{\text{target}})}\_{\text{Velocity Loss}}
 $$
 
 This logic is implemented in `src/physics_loss.py:initial_condition_loss`.
